@@ -1,0 +1,28 @@
+/* Style pour le conteneur principal */
+#contact {
+    background-color: #007bff; /* Couleur de fond bleu */
+    border-radius: 8px; /* Coins arrondis */
+    padding: 20px; /* Espace autour du contenu */
+    max-width: 300px; /* Largeur maximale */
+    margin: 0 auto; /* Centrer horizontalement */
+    text-align: center; /* Centre le texte */
+  }
+  
+  /* Style pour le texte et le lien */
+  #contact p {
+    margin: 0; /* Enlève la marge par défaut du paragraphe */
+  }
+  
+  #contact a {
+    color: rgba(255, 255, 255, 0.87); /* Couleur du texte en rgba */
+    text-decoration: none; /* Enlève la décoration par défaut du lien */
+    font-size: 18px; /* Taille de la police */
+    font-weight: bold; /* Met le texte en gras */
+    transition: color 0.3s ease; /* Transition douce pour le changement de couleur */
+  }
+  
+  #contact a:hover {
+    color: rgba(255, 255, 255, 1); /* Couleur du texte au survol */
+    text-decoration: underline; /* Ajoute une ligne de soulignement au survol */
+  }
+  

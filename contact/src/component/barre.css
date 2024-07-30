@@ -1,0 +1,33 @@
+/* styles.css */
+.progress-bar-container {
+    width: 100%;
+    background-color: #f3f3f3;
+    border-radius: 5px;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    margin: 20px 0;
+  }
+  
+  .progress-bar {
+    height: 20px;
+    width: 0;
+    background: linear-gradient(90deg, #2196F3, #E3F2FD);
+    text-align: center;
+    line-height: 20px;
+    color: white;
+    border-radius: 5px;
+    transition: width 0.4s ease-in-out;
+  }
+  
+  .progress-label {
+    font-weight: bold;
+    margin: 10px 0;
+    text-align: center;
+  }
+  #spancopy{
+    padding-left: 10%;
+    color: blue;
+  }
+  #flextext>strong>div{
+    background: linear-gradient(90deg, #2196F3, #E3F2FD);
+  }
