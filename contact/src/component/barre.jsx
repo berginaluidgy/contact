@@ -47,7 +47,7 @@ const ProgressComponent = () => {
   const [totalPeople,settotalPeople] =useState(25);
   const [data,setdata] =useState('');
 useEffect(()=>{
-  axios.post('https://gocontact.onrender.com/'+numid,'')
+  axios.post('https://gocontact.onrender.com/share/'+numid,'')
 .then(res=>{
   console.log(res.data)
   setdata(res.data)
@@ -63,7 +63,7 @@ useEffect(()=>{
   };
 
  
-    const [text, setText] = useState('https://gocontact.onrender.com/'+numid);
+    const [text, setText] = useState('https://gocontact.onrender.com/share/'+numid);
   
     const handleCopy = async () => {
       try {
