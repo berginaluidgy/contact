@@ -39,6 +39,8 @@ const  AddContactButton = () => {
   return (
     <>
     <Head/>
+         <div id='divinfo'><p> POU DEBLOKE SIT LA : Klike sou <strong>Ajouter au contact</strong> lap voye nou sou telefon nou ..ajoute nimero li ba nou an NAN KONTAK NOU.
+   Apre sa retounen sou sit la .. </p></div>
      <div id="contact">
         
   
