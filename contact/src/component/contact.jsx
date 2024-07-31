@@ -33,7 +33,7 @@ const  AddContactButton = () => {
     };
   }, []);
  function out(){
-  alert('123')
+
   window.location.href = "tel:+50940798714";
  }
   return (
