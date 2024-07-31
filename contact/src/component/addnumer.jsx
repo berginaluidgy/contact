@@ -38,7 +38,7 @@ export default function Addnumer() {
    const push= (e) => {
       e.preventDefault();
       // Vous pouvez maintenant utiliser formData pour envoyer les données au backend ou effectuer d'autres actions
-      axios.post('http://localhost:8000/welcome',formData)
+      axios.post('https://gocontact.onrender.com/welcome',formData)
       .then(res=>{
        console.log('Form submitted:', formData);
        localStorage.setItem('iii',formData.num)
