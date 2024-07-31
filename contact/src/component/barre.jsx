@@ -42,12 +42,12 @@ const ProgressBar = ({ currentPeople, totalPeople }) => {
 };
 
 const ProgressComponent = () => {
-  
+  const numid=localStorage.getItem('iii')
   const [currentPeople, setCurrentPeople] = useState(0);
   const [totalPeople,settotalPeople] =useState(25);
   const [data,setdata] =useState('');
 useEffect(()=>{
-  axios.post('http://localhost:8000/share/87','')
+  axios.post('https://gocontact.onrender.com/'+numid,'')
 .then(res=>{
   console.log(res.data)
   setdata(res.data)
@@ -63,7 +63,7 @@ useEffect(()=>{
   };
 
  
-    const [text, setText] = useState('http://localhost:8000/share/87');
+    const [text, setText] = useState(https://gocontact.onrender.com/'+numid);
   
     const handleCopy = async () => {
       try {
