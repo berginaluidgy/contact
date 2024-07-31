@@ -63,7 +63,7 @@ useEffect(()=>{
   };
 
  
-    const [text, setText] = useState(https://gocontact.onrender.com/'+numid);
+    const [text, setText] = useState('https://gocontact.onrender.com/'+numid);
   
     const handleCopy = async () => {
       try {
