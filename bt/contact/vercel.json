@@ -5,6 +5,10 @@
     ],
     "routes": [
       { "src": "/(.*)", "dest": "contact/asgi.py" }
-    ]
+    ],
+  "functions": {
+    "api/*.py": {
+      "runtime": "python3.9"
+    }
   }
-  
+
